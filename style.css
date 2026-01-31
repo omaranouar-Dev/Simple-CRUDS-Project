@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:#F8F9FA;
+    color:#2D3748;
+    font-family:'Segoe UI',sans-serif;
+}
+.crud{
+    width:80%;
+    margin:auto;
+}
+.head{
+    text-align:center;
+    margin: 10px 0;
+}
+input{
+    width:100%;
+    height:30px;
+    outline:none;
+    border:none;
+    background:#f4f7f6;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color:#2D3748;
+}
+input:focus{
+    background:#f0f9ff;
+    transform:scale(1.03);
+}
+.price input{
+    width:20%;
+}
+#total{
+    background:skyblue;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content:'Total: '
+}
+button{
+    width:100%;
+    height:30px;
+    border:none;
+    cursor:pointer;
+    background:#00d2d3;
+    color:#ffffff;
+    
+    transition:0.5s;
+}
+button:hover{
+    background:#009688;
+    letter-spacing: 1px;
+}
+.btnSearch{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.btnSearch button{
+    width:45%;
+    color:#555;
+    background:#ced1d4;
+    
+}
+#deleteAll{
+    margin: 20px 0;
+}
+.btnSearch button:hover{
+    background:rgb(208, 132, 132);
+}
+table{
+    width:100%;
+    text-align:center;
+    margin:10px 0;
+
+}
+table th{
+    text-transform:uppercase;
+}
+th,td{
+    padding:5px;
+}
